@@ -9,6 +9,7 @@ class Element extends Atom {
   protected $required_props = [];
   protected $default_props = [];
   protected $allow_unknown_props = null;
+  protected $known_props = [];
 
   /**
    * Constructs a new instance of Element from the $value.
